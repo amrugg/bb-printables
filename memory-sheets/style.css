@@ -1,3 +1,335 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* General input and select styles */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    padding: 7px 12px;
+    border: 1px solid #bfc9d9;
+    border-radius: 4px;
+    background: #f7fafd;
+    font-size: 1em;
+    color: #333;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    margin: 4px 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: #4a6fa5;
+  box-shadow: 0 0 0 2px #e3ecfa;
+  background: #fff;
+}
+
+/* Button style */
+button,
+input[type="submit"] {
+  padding: 7px 18px;
+  background: #4a6fa5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin: 4px 4px;
+}
+
+button:enabled:hover,
+input[type="submit"]:hover {
+  background: #385a89;
+  box-shadow: 0 2px 8px rgba(74, 111, 165, 0.08);
+}
+
+button:active,
+input[type="submit"]:active {
+  background: #2c466b;
+}
+
 label {
     display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: #4a6fa5; /* Soft blue accent */
+    font-size: 1em;
+    letter-spacing: 0.01em;
+}
+.page {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.25in;
+}
+.page-break {
+    page-break-after: always;
+}
+.cell1 {
+    width: 1.7in;
+}
+.cell2 {
+    width: 0.50in;
+}
+.date {
+    width: 1.48in;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+/* Softer blue header */
+thead th {
+  background: #4a6fa5; /* Soft blue */
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  border: 1px solid #d1d5db;
+  font-weight: 600;
+}
+
+/* Table cells */
+td, th {
+  padding: 7px 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+/* Softer blue zebra striping for rows, skip barrier */
+tbody tr:not(.barrier):nth-child(even) td {
+  background-color: #eaf1fa; /* Very light blue */
+}
+
+/* Barrier row base style */
+tr.barrier td {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1em;
+  padding: 7px 0;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+/* Blue barrier */
+tr.barrier-blue td {
+  background: #e3ecfa;
+  color: #4a6fa5;
+  border-top: 2px solid #4a6fa5;
+  border-bottom: 2px solid #4a6fa5;
+}
+
+/* Green barrier */
+tr.barrier-green td {
+  background: #e6f7ec;
+  color: #3a7d5d;
+  border-top: 2px solid #3a7d5d;
+  border-bottom: 2px solid #3a7d5d;
+}
+
+/* Orange barrier */
+tr.barrier-orange td {
+  background: #fff4e6;
+  color: #b36b00;
+  border-top: 2px solid #b36b00;
+  border-bottom: 2px solid #b36b00;
+}
+
+/* Red barrier */
+tr.barrier-red td {
+  background: #fdeaea;
+  color: #b22222;
+  border-top: 2px solid #b22222;
+  border-bottom: 2px solid #b22222;
+}
+
+/* Purple barrier */
+tr.barrier-purple td {
+  background: #f3e6fa;
+  color: #6c3483;
+  border-top: 2px solid #6c3483;
+  border-bottom: 2px solid #6c3483;
+}
+
+/* Pink barrier */
+tr.barrier-pink td {
+  background: #fae6f0;
+  color: #c2185b;
+  border-top: 2px solid #c2185b;
+  border-bottom: 2px solid #c2185b;
+}
+
+/* Teal barrier */
+tr.barrier-teal td {
+  background: #e6f9f7;
+  color: #008080;
+  border-top: 2px solid #008080;
+  border-bottom: 2px solid #008080;
+}
+
+/* Gray barrier */
+tr.barrier-gray td {
+  background: #f2f2f2;
+  color: #555;
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #888;
+}
+
+.name {
+    position: relative;
+    right: -8in;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.print-btn {
+  padding: 7px 18px;
+  background: #b36b00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin: 4px 0;
+}
+
+.print-btn:enabled:hover {
+  background: #8a5200;
+  box-shadow: 0 2px 8px rgba(179, 107, 0, 0.08);
+}
+
+.print-btn:active {
+  background: #5c3700;
+}
+.print-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.about-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* Overlay covers the whole screen with a soft blue tint */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(74, 111, 165, 0.18);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+/* Large modal box */
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(74, 111, 165, 0.18), 0 2px 12px rgba(0,0,0,0.08);
+  max-width: 900px;
+  width: 96vw;
+  max-height: 90vh;
+  min-height: 400px;
+  padding: 40px 48px 32px 48px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: modalIn 0.25s cubic-bezier(.4,1.4,.6,1) both;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .modal {
+    max-width: 98vw;
+    padding: 24px 8vw 24px 8vw;
+  }
+}
+@media (max-width: 600px) {
+  .modal {
+    padding: 12px 2vw 12px 2vw;
+  }
+}
+
+@keyframes modalIn {
+  from { transform: translateY(40px) scale(0.98); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
+/* Modal header */
+.modal-header {
+  font-size: 2em;
+  font-weight: 700;
+  color: #4a6fa5;
+  margin-bottom: 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+/* Close button */
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: #bfc9d9;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0 5px;
+  z-index: 2;
+}
+.modal-close:hover {
+  color: #4a6fa5;
+}
+
+/* Modal content area */
+.modal-content {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+/* Form layout inside modal */
+.modal-content .form-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.modal-content .form-col {
+  flex: 1 1 220px;
+  min-width: 180px;
+}
+
+/* Modal actions (footer) */
+.modal-actions {
+  margin-top: 24px;
+  text-align: right;
+  border-top: 1px solid #e3ecfa;
+  padding-top: 18px;
 }
