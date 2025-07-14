@@ -196,7 +196,7 @@ function loadVerseCardData(division, version, cb)
         verseReq.cancelRequest();
     }
     
-    verseReq = request("/memory-sheets/verseCards/NBBC-" + year + "/" + key + "-" + cardHashes[key] + ".json", function (err, data)
+    verseReq = request("/bb-printables/memory-sheets/verseCards/NBBC-" + year + "/" + key + "-" + cardHashes[key] + ".json", function (err, data)
     {
         if (err) {
             console.error(err);
