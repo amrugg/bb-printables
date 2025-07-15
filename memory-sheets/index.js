@@ -195,8 +195,11 @@ function loadVerseCardData(division, version, cb)
     if (verseReq && verseReq.status !== "DONE") {
         verseReq.cancelRequest();
     }
-    
-    verseReq = request("/bb-printables/memory-sheets/verseCards/NBBC-" + year + "/" + key + "-" + cardHashes[key] + ".json", function (err, data)
+    var baseDir = "";
+    if(window.location.href.startsWith("https")) {
+        baseDir = "/bb-printables/memory-sheets/"
+    }
+    verseReq = request(baseDir + "verseCards/NBBC-" + year + "/" + key + "-" + cardHashes[key] + ".json", function (err, data)
     {
         if (err) {
             console.error(err);
@@ -496,7 +499,7 @@ function sort(cards) {
             if(cur.cards < 2) {
                 newCards.push(cur);
             } else {
-                newCards.push({break: "Two Cards Appear"});
+                newCards.push({break: "Two Cards Appear", class: "barrier-green"});
                 break;
             }
             i++;
@@ -507,7 +510,7 @@ function sort(cards) {
             if(cur.cards < 3) {
                 newCards.push(cur);
             } else {
-                newCards.push({break: "Three Cards Appear"});
+                newCards.push({break: "Three Cards Appear", class: "barrier-red"});
                 break;
             }
             i++;
@@ -517,7 +520,7 @@ function sort(cards) {
             if(cur.cards < 4) {
                 newCards.push(cur);
             } else {
-                newCards.push({break: "Four Cards Appear"});
+                newCards.push({break: "Four Cards Appear", class: "barrier-blue"});
                 break;
             }
             i++;
