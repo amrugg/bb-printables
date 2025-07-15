@@ -188,9 +188,7 @@ tr.barrier-gray td {
 }
 
 .name {
-    position: relative;
-    right: -8in;
-    width: fit-content;
+    text-align: right;
     padding-bottom: 10px;
 }
 @media print
