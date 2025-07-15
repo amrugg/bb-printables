@@ -421,12 +421,14 @@ function sort(cards) {
                 newCards.push({break: "Summer Study", class: "barrier-green"});
                 break;
             }
-            cards.shift();
+            i++
         }
-        cards.sort(function(a,b) {
+        var notSS = cards.slice(i);
+        notSS.sort(function(a,b) {
             return a.wordCount - b.wordCount;
         })
-
+        cards = notSS;
+        i = 0;
         while(i < cards.length) {
             var cur = cards[i];
             if(cur.cards < 2) {
