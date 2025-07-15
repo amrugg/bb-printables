@@ -148,7 +148,8 @@ function showAbout() {
         cde("h1", {t: "Help and support"}),
         cde("p", ["Please mail any bug reports or feature requests to ", cde("a", {href: "mailto:aaron@bibleadventure.com", t: "aaron@bibleadventure.com"}), ". I will happily read them but I get very busy during Bible Bee season and may not have time to develop this project any further."]),
         cde("p", ["Alternatively, make an issue or create a pull request on ", cde("a", {href: "https://github.com/amrugg/bb-printables", t: "my github page."})]),
-        cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), " and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), "."])
+        cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), " and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), "."]),
+        cde("p", ["~ Aaron Rugg"])
     ]);
     var modal = cde("div.modal", [closeBtn, header, content])
     var overlay = cde("div.modal-overlay", [modal]);
