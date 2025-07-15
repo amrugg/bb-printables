@@ -408,7 +408,9 @@ function makeSheets(cards) {
 }
 function sort(cards) {
     var newCards = [];
-    
+    cards.sort(function(a,b) {
+        return a.cardNum - b.cardNum;
+    });
     if (order.selectedIndex === 0) {
         var i = 0;
         while(i < cards.length) {
