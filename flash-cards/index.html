@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Printable Flashcards Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id=title>Printable Flashcards Generator</h1>
+    <div id="input-section">
+        <label for="data">Paste your flashcard data:</label><br>
+        <textarea id="data" rows="10" cols="60" placeholder="Paste"></textarea><br>
+        <label for="term-def-sep">Term/Definition Separator:</label>
+        <input type="text" id="term-def-sep" value="\t" size="3">
+        <label for="card-sep">Card Separator:</label>
+        <input type="text" id="card-sep" value="\n" size="3">
+        <label for="cards-per-page">Cards per page:</label>
+        <select id="cards-per-page">
+            <option>4</option>
+            <option>6</option>
+            <option>8</option>
+            <option>10</option>
+        </select>
+        <button id="generate">Generate</button>
+    </div>
+    <div id="output-section" style="display:none;">
+        <button id="back">Back</button>
+        <button id="print">Print</button>
+        <div id="flashcards"></div>
+    </div>
+    <script src="fontFit.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

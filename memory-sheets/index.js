@@ -159,22 +159,27 @@ function showAbout() {
     }
 }
 var cardHashes = {
-    "J-ESV": "9f8aad6",
-    "J-KJV": "ee37603",
-    "J-NASB": "be2cb4d",
-    "J-NIV": "47a70ee",
-    "J-NKJV": "4b0aa6a",
-    "P-ESV": "9b5e0fb",
-    "P-KJV": "f6e2cf0",
-    "P-NASB": "757b0f4",
-    "P-NIV": "1d945a8",
-    "P-NKJV": "169cb36",
-    "S-ESV": "39f431d",
-    "S-KJV": "ec3c0f9",
-    "S-NASB": "1f2842a",
-    "S-NIV": "cbf7c42",
-    "S-NKJV": "4e6ad08",
-}
+    "B-ESV": "c31b01c",
+    "B-KJV": "8cd98a0",
+    "B-NASB": "5d20f2f",
+    "B-NIV": "58c4a95",
+    "B-NKJV": "4f31328",
+    "J-ESV": "e33bb54",
+    "J-KJV": "0c72f80",
+    "J-NASB": "a658962",
+    "J-NIV": "51f8a0f",
+    "J-NKJV": "e93067b",
+    "P-ESV": "fbfe1db",
+    "P-KJV": "e85e158",
+    "P-NASB": "b2f576d",
+    "P-NIV": "0c4c3dd",
+    "P-NKJV": "12c507b",
+    "S-ESV": "7165454",
+    "S-KJV": "18ab268",
+    "S-NASB": "c3972b8",
+    "S-NIV": "d34dcb6",
+    "S-NKJV": "6f1fd64"
+};
 var verseReq;
 var verseCardCache = {};
 var year = (new Date()).getUTCFullYear();

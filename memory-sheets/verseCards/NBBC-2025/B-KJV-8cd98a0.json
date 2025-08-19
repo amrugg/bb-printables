@@ -1,0 +1,224 @@
+[
+    {
+        "ref": "Genesis 1:1",
+        "text": "(1) In the beginning God created the heaven and the earth.",
+        "cardsText": [
+            [
+                "(1) In the beginning God created the heaven and the earth."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1001001,
+        "cardNum": 1,
+        "wordCount": 10,
+        "cards": 1,
+        "lines": 1,
+        "lastCardLines": 1,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 10,
+            "wordCountMin": 10,
+            "wordCountMax": 10,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 1,
+            "lineMin": 1,
+            "lineMax": 1
+        }
+    },
+    {
+        "ref": "Genesis 1:26",
+        "text": "(26) And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+        "cardsText": [
+            [
+                "(26) And God said, Let us make man in our image, after our",
+                "likeness: and let them have dominion over the fish of the sea,",
+                "and over the fowl of the air, and over the cattle, and over all",
+                "the earth, and over every creeping thing that creepeth upon the",
+                "earth."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1001026,
+        "cardNum": 2,
+        "wordCount": 50,
+        "cards": 1,
+        "lines": 5,
+        "lastCardLines": 5,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 49.2,
+            "wordCountMin": 48,
+            "wordCountMax": 50,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 4.4,
+            "lineMin": 4,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "Genesis 2:3",
+        "text": "(3) And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.",
+        "cardsText": [
+            [
+                "(3) And God blessed the seventh day, and sanctified it: because",
+                "that in it he had rested from all his work which God created and",
+                "made."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1002003,
+        "cardNum": 3,
+        "wordCount": 25,
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 24.6,
+            "wordCountMin": 24,
+            "wordCountMax": 25,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2.2,
+            "lineMin": 2,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 2:24",
+        "text": "(24) Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+        "cardsText": [
+            [
+                "(24) Therefore shall a man leave his father and his mother, and",
+                "shall cleave unto his wife: and they shall be one flesh."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1002024,
+        "cardNum": 4,
+        "wordCount": 22,
+        "cards": 1,
+        "lines": 2,
+        "lastCardLines": 2,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 22,
+            "wordCountMin": 21,
+            "wordCountMax": 24,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2,
+            "lineMin": 2,
+            "lineMax": 2
+        }
+    },
+    {
+        "ref": "Genesis 3:15",
+        "text": "(15) And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+        "cardsText": [
+            [
+                "(15) And I will put enmity between thee and the woman, and",
+                "between thy seed and her seed; it shall bruise thy head, and thou",
+                "shalt bruise his heel."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1003015,
+        "cardNum": 5,
+        "wordCount": 28,
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 28.4,
+            "wordCountMin": 27,
+            "wordCountMax": 32,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 3,
+            "lineMin": 3,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 4:7",
+        "text": "(7) If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "cardsText": [
+            [
+                "(7) If thou doest well, shalt thou not be accepted? and if thou",
+                "doest not well, sin lieth at the door. And unto thee shall be his",
+                "desire, and thou shalt rule over him."
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1004007,
+        "cardNum": 6,
+        "wordCount": 33,
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 34.2,
+            "wordCountMin": 33,
+            "wordCountMax": 37,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 3,
+            "lineMin": 3,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 5:1",
+        "text": "(1) This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;",
+        "cardsText": [
+            [
+                "(1) This is the book of the generations of Adam. In the day that",
+                "God created man, in the likeness of God made he him;"
+            ]
+        ],
+        "version": "KJV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1005001,
+        "cardNum": 7,
+        "wordCount": 24,
+        "cards": 1,
+        "lines": 2,
+        "lastCardLines": 2,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 22.8,
+            "wordCountMin": 21,
+            "wordCountMax": 24,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2,
+            "lineMin": 2,
+            "lineMax": 2
+        }
+    }
+]
