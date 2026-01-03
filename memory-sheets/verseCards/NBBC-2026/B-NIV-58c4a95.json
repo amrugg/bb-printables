@@ -1,0 +1,222 @@
+[
+    {
+        "ref": "Genesis 1:1",
+        "text": "(1) In the beginning God created the heavens and the earth.",
+        "cardsText": [
+            [
+                "(1) In the beginning God created the heavens and the earth."
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1001001,
+        "cardNum": 1,
+        "wordCount": 10,
+        "cards": 1,
+        "lines": 1,
+        "lastCardLines": 1,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 10,
+            "wordCountMin": 10,
+            "wordCountMax": 10,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 1,
+            "lineMin": 1,
+            "lineMax": 1
+        }
+    },
+    {
+        "ref": "Genesis 1:26",
+        "text": "(26) Then God said, \"Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals, and over all the creatures that move along the ground.\"",
+        "cardsText": [
+            [
+                "(26) Then God said, \"Let us make mankind in our image, in our",
+                "likeness, so that they may rule over the fish in the sea and the",
+                "birds in the sky, over the livestock and all the wild animals,",
+                "and over all the creatures that move along the ground.\""
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1001026,
+        "cardNum": 2,
+        "wordCount": 48,
+        "cards": 1,
+        "lines": 4,
+        "lastCardLines": 4,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 49.2,
+            "wordCountMin": 48,
+            "wordCountMax": 50,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 4.4,
+            "lineMin": 4,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "Genesis 2:3",
+        "text": "(3) Then God blessed the seventh day and made it holy, because on it he rested from all the work of creating that he had done.",
+        "cardsText": [
+            [
+                "(3) Then God blessed the seventh day and made it holy, because on",
+                "it he rested from all the work of creating that he had done."
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1002003,
+        "cardNum": 3,
+        "wordCount": 25,
+        "cards": 1,
+        "lines": 2,
+        "lastCardLines": 2,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 24.6,
+            "wordCountMin": 24,
+            "wordCountMax": 25,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2.2,
+            "lineMin": 2,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 2:24",
+        "text": "(24) That is why a man leaves his father and mother and is united to his wife, and they become one flesh.",
+        "cardsText": [
+            [
+                "(24) That is why a man leaves his father and mother and is united",
+                "to his wife, and they become one flesh."
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1002024,
+        "cardNum": 4,
+        "wordCount": 21,
+        "cards": 1,
+        "lines": 2,
+        "lastCardLines": 2,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 22,
+            "wordCountMin": 21,
+            "wordCountMax": 24,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2,
+            "lineMin": 2,
+            "lineMax": 2
+        }
+    },
+    {
+        "ref": "Genesis 3:15",
+        "text": "(15) And I will put enmity between you and the woman, and between your offspring and hers; he will crush your head, and you will strike his heel.\"",
+        "cardsText": [
+            [
+                "(15) And I will put enmity between you and the woman, and between",
+                "your offspring and hers; he will crush your head, and you will",
+                "strike his heel.\""
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1003015,
+        "cardNum": 5,
+        "wordCount": 27,
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 28.4,
+            "wordCountMin": 27,
+            "wordCountMax": 32,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 3,
+            "lineMin": 3,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 4:7",
+        "text": "(7) If you do what is right, will you not be accepted? But if you do not do what is right, sin is crouching at your door; it desires to have you, but you must rule over it.\"",
+        "cardsText": [
+            [
+                "(7) If you do what is right, will you not be accepted? But if you",
+                "do not do what is right, sin is crouching at your door; it",
+                "desires to have you, but you must rule over it.\""
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1004007,
+        "cardNum": 6,
+        "wordCount": 37,
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 34.2,
+            "wordCountMin": 33,
+            "wordCountMax": 37,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 3,
+            "lineMin": 3,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Genesis 5:1",
+        "text": "(1) This is the written account of Adam's family line. When God created mankind, he made them in the likeness of God.",
+        "cardsText": [
+            [
+                "(1) This is the written account of Adam's family line. When God",
+                "created mankind, he made them in the likeness of God."
+            ]
+        ],
+        "version": "NIV",
+        "division": "Beginner",
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 1005001,
+        "cardNum": 7,
+        "wordCount": 21,
+        "cards": 1,
+        "lines": 2,
+        "lastCardLines": 2,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 22.8,
+            "wordCountMin": 21,
+            "wordCountMax": 24,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2,
+            "lineMin": 2,
+            "lineMax": 2
+        }
+    }
+]
