@@ -303,6 +303,7 @@ tr.barrier-gray td {
 }
 .modal-close:hover {
   color: #4a6fa5;
+  background-color: transparent;
 }
 
 /* Modal content area */

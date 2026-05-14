@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+#input-section, #output-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+label {
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    margin-right: 15px;
+    font-size: 1em;
+}
+
+button {
+    margin: 10px 5px 10px 0;
+    padding: 6px 18px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+.green-btn {
+    background: #388e3c;
+}
+
+.green-btn:hover {
+    background: #2e7d32;
+}
+
+#flashcards {
+    margin-top: 20px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+.br {
+    page-break-after: always;
+}
+
+.cards-column {
+    width: 50%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    min-height: 60px;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media print {
+    html, body {
+        background: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    #title, #input-section, #back, #print {
+        display: none !important;
+    }
+    #output-section {
+        box-shadow: none;
+        padding: 0;
+    }
+    .page {
+        margin-bottom: 0;
+        background-color: aliceblue;
+        /*width: 8.5in;
+        height: 11in;*/
+        margin: 0;
+        padding: 0;
+    }
+    .card {
+        page-break-inside: avoid;
+    }
+    @page {
+        size: 8.5in 11in;
+        margin: 0;
+    }
+}
+
+.about-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* Overlay covers the whole screen with a soft blue tint */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(74, 111, 165, 0.18);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+/* Large modal box */
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(74, 111, 165, 0.18), 0 2px 12px rgba(0,0,0,0.08);
+  max-width: 900px;
+  width: 96vw;
+  max-height: 90vh;
+  min-height: 400px;
+  padding: 40px 48px 32px 48px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: modalIn 0.25s cubic-bezier(.4,1.4,.6,1) both;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .modal {
+    max-width: 98vw;
+    padding: 24px 8vw 24px 8vw;
+  }
+}
+@media (max-width: 600px) {
+  .modal {
+    padding: 12px 2vw 12px 2vw;
+  }
+}
+
+@keyframes modalIn {
+  from { transform: translateY(40px) scale(0.98); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
+/* Modal header */
+.modal-header {
+  font-size: 2em;
+  font-weight: 700;
+  color: #4a6fa5;
+  margin-bottom: 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+/* Close button */
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: #bfc9d9;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0 5px;
+  z-index: 2;
+}
+.modal-close:hover {
+  color: #4a6fa5;
+  background-color: transparent;
+}
+
+/* Modal content area */
+.modal-content {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+/* Form layout inside modal */
+.modal-content .form-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.modal-content .form-col {
+  flex: 1 1 220px;
+  min-width: 180px;
+}
+
+/* Modal actions (footer) */
+.modal-actions {
+  margin-top: 24px;
+  text-align: right;
+  border-top: 1px solid #e3ecfa;
+  padding-top: 18px;
+}

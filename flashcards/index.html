@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Printable Flashcards Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id=title>Printable Flashcards Generator</h1>
+    <div id="input-section">
+        <label for="data">Paste your flashcard data:</label><br>
+        <textarea id="data" rows="10" cols="60" placeholder="Paste"></textarea><br>
+        <div id="presets-cont">
+            <div>Separator Presets:</div>
+        </div>
+        <label for="term-def-sep">Term/Definition Separator: <input type="text" id="term-def-sep" value="\t" size="3"></label>
+        <label for="card-sep">Card Separator: <input type="text" id="card-sep" value="\n" size="3"></label>
+        <label for="cards-per-page">Cards per page:
+            <select id="cards-per-page">
+                <option>4</option>
+                <option>6</option>
+                <option selected>8</option>
+                <option>10</option>
+            </select>
+        </label>
+        
+        
+        <label for="font-size">Font Size: <input type="number" id="font-size" value="15"></label>
+        <label for="font-family">Font:
+            <select id="font-family">
+                <option selected>Times New Roman</option>
+                <option>Lato</option>
+                <option>Roboto</option>
+                <option>Helvetica</option>
+                <option>Arial</option>
+            </select>
+        </label>
+        
+        <button id="generate">Generate</button> <br>
+        
+        <iframe id="pdf-preview" style="width: 100%; height: 600px; margin: 10px auto;"></iframe>
+    </div>
+    <div id="output-section" style="display:none;">
+        <button id="back">Back</button>
+        <button id="print">Print</button>
+        <div id="flashcards"></div>
+    </div>
+    <script src="pdf-lib.min.js"></script>
+        <script src="
+    https://cdn.jsdelivr.net/npm/@pdf-lib/fontkit@1.1.1/dist/fontkit.umd.min.js
+    "></script>
+    <script src="fontFit.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
