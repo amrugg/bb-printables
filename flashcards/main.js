@@ -133,6 +133,7 @@ function cde(type, properties, children)
         }
         return cards;
     }
+    var rootDir = (window.location.href.startsWith("https") ? "/flashcards/" : "/")
     var flashcardEl = document.getElementById("flashcards");
     var page = document.body;
 
@@ -246,7 +247,7 @@ function cde(type, properties, children)
                 
                 // 3. Fetch the .ttf file from your public folder
                 // (Make sure the file name matches what you downloaded)
-                return fetch("/fonts/" + fontFamily + ".ttf");
+                return fetch(rootDir + "fonts/" + fontFamily + ".ttf");
             })
             .then(function (res) {
                 if (!res.ok) throw new Error("Could not load font file");
