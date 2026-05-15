@@ -133,7 +133,7 @@ function cde(type, properties, children)
         }
         return cards;
     }
-    var rootDir = (window.location.href.startsWith("https") ? "/flashcards/" : "/")
+    var rootDir = (window.location.href.startsWith("https") ? "/bb-printables/flashcards/" : "/")
     var flashcardEl = document.getElementById("flashcards");
     var page = document.body;
 
