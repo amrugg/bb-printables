@@ -108,6 +108,14 @@ function cde(type, properties, children)
     }
 
     function parseData(data, termDefSep, cardSep) {
+        data = data.replaceAll("￼", "");
+        if(data.includes("You've been getting these terms right!")) {
+            alert("Detected the substring:\n" + "You've been getting these terms right!" + "\nin your set. You may want to double-check your input—you may have accidentally copied a Quizlet message.");
+        }
+        if(termDefSep === "|") {
+            termDefSep = "\\|"
+        }
+
         termDefSep = new RegExp(parseSeparator(termDefSep))
         cardSep = new RegExp(parseSeparator(cardSep), "g");
         
@@ -324,7 +332,9 @@ function cde(type, properties, children)
             .then(function (pdfBytes) {
                 const blob = new Blob([pdfBytes], { type: "application/pdf" });
                 const pdfUrl = URL.createObjectURL(blob);
-                document.getElementById("pdf-preview").src = pdfUrl;
+                var preview = document.getElementById("pdf-preview");
+                preview.src = pdfUrl;
+                preview.hidden = false;
             })
             .catch(function (error) {
                 console.error("An error occurred while generating the PDF:", error);
@@ -409,7 +419,7 @@ function cde(type, properties, children)
     presetsCont.appendChild(
         cde("button", {t: "Slide-down", onclick: function() {
             document.getElementById("term-def-sep").value = "\\n";
-            document.getElementById("card-sep").value = "\\n[\\n ]+";
+            document.getElementById("card-sep").value = "\\n\\n\\n+";
             saveMem();
         }})
     );
@@ -418,8 +428,21 @@ function cde(type, properties, children)
             showModal(
                 "Exporting from Quizlet", 
                 cde("div.modal-content", [
-                    cde("p", {t: "I currently know of two good ways to get a Quizlet set off of Quizlet."}),
-                    cde("p", {t: ""}),
+                    cde("p", {t: "I currently know of two good ways to get a Quizlet set off of Quizlet. The first is to use the built-in export tool."}),
+                    cde("img", {src: "img/export.webp"}),
+                    cde("p", {t: "If you use this tool with the default settings, the “Default Export” option should parse your cards correctly."}),
+
+                    cde("p", {t: "However, this tool seems only to work with sets you've created yourself (or possibly sets you copy from others, but that sometimes doesn't work for me.) Thus, a different method must be found."}),
+                    cde("p", {t: "Scroll down on the home page and show all the terms, not just the starred terms."}),
+                    cde("img", {src: "img/start.webp"}),
+                    cde("p", {t: "Select starting at the top and glide all the way down to the bottom."}),
+                    cde("img", {src: "img/end.webp"}),
+                    cde("p", {t: "Copy everything you just selected and paste it into the text cards area (making sure to “See More” if needed and erasing the “You've been getting these terms right!” dialogue if it appears.)"}),
+                    cde("img", {src: "img/data.webp"}),
+                    cde("p", {t: "Click on “Slide-down” (so named because you select at the top and then slide down) and the program should properly parse your cards."}),
+                    cde("p", {t: "Note that this method might not work if the card set you select has multi-line terms or definitions. If it's not working, you might just have to type it out yourself."}),
+
+
 
                 ])
             )
@@ -433,12 +456,14 @@ function cde(type, properties, children)
                 "Printable Flashcard Generator", 
                 cde("div.modal-content", [
                     cde("p", {t: "This is a simple web app to generate printable flashcards."}),
-                    cde("p", {t: "I use a simple scoring system to record my progress. Every time I recite a passage, I put a mark on my sheet. If I got it perfect, I get a green mark; if I make between 1 and 4 mistakes, I get a yellow mark; if I make 5 or more mistakes, I get a red mark."}),
+                    cde("p", {t: "It's designed to take Quizlet sets and make printable PDFs from them. I know of two easy ways to extract the cards from Quizlet: hit “What's this?” under “Separator Presets” to learn more."}),
+                    cde("p", {t: "Note that “Term/Definition Separator” and “Card Separator” are interpreted as regular expressions. If you're not using the presets and using text in some other format—for example using pipes (|) for your term/def separator—be aware that you have to backslash special characters (so use “\\|” instead of plain “|”.)"}),
                     cde("h1", {t: "Help and support"}),
-                    cde("p", ["Please mail any bug report, feature requests, or laud and adulation to ", cde("a", {href: "mailto:aaron@bibleadventure.com", t: "aaron@bibleadventure.com"}), ". I will happily read any messages but I get very busy during Bible Bee season and may not have time to develop this project any further."]),
-                    cde("p", ["Alternatively, make an issue or create a pull request on ", cde("a", {href: "https://github.com/amrugg/bb-printables", t: "my github page."})]),
-                    cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), " and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), "."]),
-                    cde("p", ["~ Aaron Rugg"])
+                    cde("p", ["Please send any bug reports, feature requests, and fan mail to ", cde("a", {href: "mailto:aaron@bibleadventure.com", t: "aaron@bibleadventure.com"}), ". I will happily read any messages but I get very busy during Bible Bee season and may not have time to develop this project any further."]),
+                    cde("p", ["Alternatively, make an issue or create a pull request on ", cde("a", {href: "https://github.com/amrugg/bb-printables", t: "Github."})]),
+                    cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), ", ", cde("a", {href: "https://amrugg.github.io/bb-printables/memory-sheets/", t: "Memory Sheets"}), ", and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), " (Lord willing, coming for James at the end of May.)"]),
+                    cde("p", ["— Aaron Rugg"]),
+                    cde("p", ["1 Corinthians 1:31 (He that glorieth, let him ", cde("b", {t: "glory in the Lord."}), ")"])
                 ])
             )
         }});
