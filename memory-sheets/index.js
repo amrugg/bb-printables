@@ -87,6 +87,10 @@ function cde(type, properties, children)
     return el;
 } 
 var page = document.getElementById("page");
+var yearSelect = cde("select",  [
+    cde("option", {t: "2026"}),
+    cde("option", {t: "2025"}),
+]);
 var division = cde("select",  [
     cde("option", {t: "Senior"}),
     cde("option", {t: "Junior"}),
@@ -120,10 +124,12 @@ var order = cde("select", [
 ]);
 
 var generate = cde("button", {t: "Generate", onclick: function() {
+    debugger
     loadVerseCardData(division.value[0], version.value, makeSheets);
 }});
 var printButton = cde("button.print-btn", {t: "Print", disabled: true, onclick: function(){window.print()}});
 var uiContainer = cde("div.uiContainer no-print", [
+    cde("label", {title: "Year for MPs"}, ["Year:", yearSelect]),
     cde("label", {title: "Contestant division"}, ["Division:", division]),
     cde("label", {title: "The version to use when ordering the cards.\nThere will be little to no difference for most versions."}, ["Version:", version]),
     cde("label", ["Date:", date]),
@@ -159,30 +165,136 @@ function showAbout() {
     }
 }
 var cardHashes = {
-    "B-ESV": "c31b01c",
-    "B-KJV": "8cd98a0",
-    "B-NASB": "5d20f2f",
-    "B-NIV": "58c4a95",
-    "B-NKJV": "4f31328",
-    "J-ESV": "e33bb54",
-    "J-KJV": "0c72f80",
-    "J-NASB": "a658962",
-    "J-NIV": "51f8a0f",
-    "J-NKJV": "e93067b",
-    "P-ESV": "fbfe1db",
-    "P-KJV": "e85e158",
-    "P-NASB": "b2f576d",
-    "P-NIV": "0c4c3dd",
-    "P-NKJV": "12c507b",
-    "S-ESV": "7165454",
-    "S-KJV": "18ab268",
-    "S-NASB": "c3972b8",
-    "S-NIV": "d34dcb6",
-    "S-NKJV": "6f1fd64"
+    "2021": {
+        "J-ESV": "9ccf649",
+        "J-KJV": "0f87ace",
+        "J-NASB": "886aa3e",
+        "J-NIV": "d6b902b",
+        "J-NKJV": "60bd3b3",
+        "P-ESV": "fbb0375",
+        "P-KJV": "63dc37c",
+        "P-NASB": "69a4d04",
+        "P-NIV": "0875425",
+        "P-NKJV": "177ef2f",
+        "S-ESV": "bd835a8",
+        "S-KJV": "a9266f9",
+        "S-NASB": "a55a264",
+        "S-NIV": "cdaf693",
+        "S-NKJV": "abaef54"
+    },
+    "2022": {
+        "B-ESV": "38f47a0",
+        "B-KJV": "eca652f",
+        "B-NASB": "b41c43b",
+        "B-NIV": "a5d9c3b",
+        "B-NKJV": "8570708",
+        "J-ESV": "4a39940",
+        "J-KJV": "180e2a6",
+        "J-NASB": "664d11c",
+        "J-NIV": "50ce354",
+        "J-NKJV": "b111896",
+        "P-ESV": "c2e16f0",
+        "P-KJV": "c3d211b",
+        "P-NASB": "42d3b95",
+        "P-NIV": "b807ea9",
+        "P-NKJV": "21c4d0c",
+        "S-ESV": "f1fb1c0",
+        "S-KJV": "fc30223",
+        "S-NASB": "4e1e09a",
+        "S-NIV": "041de48",
+        "S-NKJV": "8ef53e7"
+    },
+    "2023": {
+        "B-ESV": "9db0e94",
+        "B-KJV": "9dfaaa3",
+        "B-NASB": "8b8a8da",
+        "B-NIV": "3ed98ad",
+        "B-NKJV": "7c8d43e",
+        "J-ESV": "cc3aedf",
+        "J-KJV": "a6a0085",
+        "J-NASB": "2a094e1",
+        "J-NIV": "34356c9",
+        "J-NKJV": "b09d3ed",
+        "P-ESV": "0858d5f",
+        "P-KJV": "2c15778",
+        "P-NASB": "c30517e",
+        "P-NIV": "985a234",
+        "P-NKJV": "13f2ad8",
+        "S-ESV": "92a2cef",
+        "S-KJV": "6af0495",
+        "S-NASB": "4b46254",
+        "S-NIV": "3469e6f",
+        "S-NKJV": "4f3fbe2"
+    },
+    "2024": {
+        "B-ESV": "5bd0b73",
+        "B-KJV": "64b6fa7",
+        "B-NASB": "d22394c",
+        "B-NIV": "d951875",
+        "B-NKJV": "f2e845b",
+        "J-ESV": "0afb666",
+        "J-KJV": "b2c3c6e",
+        "J-NASB": "9f25f78",
+        "J-NIV": "aae8b44",
+        "J-NKJV": "0f70cc3",
+        "P-ESV": "5e14e7a",
+        "P-KJV": "691f62d",
+        "P-NASB": "d2de621",
+        "P-NIV": "750fb5b",
+        "P-NKJV": "059f6ce",
+        "S-ESV": "3f569c8",
+        "S-KJV": "d9fc684",
+        "S-NASB": "0ecbf55",
+        "S-NIV": "ca4d093",
+        "S-NKJV": "24c111a"
+    },
+    "2025": {
+        "B-ESV": "c31b01c",
+        "B-KJV": "8cd98a0",
+        "B-NASB": "5d20f2f",
+        "B-NIV": "58c4a95",
+        "B-NKJV": "4f31328",
+        "J-ESV": "e2b35dd",
+        "J-KJV": "129becd",
+        "J-NASB": "38730a4",
+        "J-NIV": "5c35d9f",
+        "J-NKJV": "e6f13bf",
+        "P-ESV": "10baf2e",
+        "P-KJV": "c2a21f3",
+        "P-NASB": "00628c0",
+        "P-NIV": "b404736",
+        "P-NKJV": "a6051aa",
+        "S-ESV": "42fd366",
+        "S-KJV": "968beb8",
+        "S-NASB": "911e671",
+        "S-NIV": "e3a5e1c",
+        "S-NKJV": "ae60adf"
+    },
+    "2026": {
+        "B-ESV": "685194f",
+        "B-KJV": "de5e2d3",
+        "B-NASB": "0a25886",
+        "B-NIV": "125753f",
+        "B-NKJV": "b8be0b3",
+        "J-ESV": "38f7690",
+        "J-KJV": "e9e1d39",
+        "J-NASB": "3febd14",
+        "J-NIV": "f7dcfbb",
+        "J-NKJV": "ceb0658",
+        "P-ESV": "c18ad79",
+        "P-KJV": "ddd2155",
+        "P-NASB": "2dfe345",
+        "P-NIV": "05e4b9b",
+        "P-NKJV": "4cf0b6f",
+        "S-ESV": "db08680",
+        "S-KJV": "fa1968c",
+        "S-NASB": "fc80b77",
+        "S-NIV": "e52b376",
+        "S-NKJV": "ea1b605"
+    }
 };
 var verseReq;
 var verseCardCache = {};
-var year = (new Date()).getUTCFullYear();
 function loadVerseCardData(division, version, cb)
 {
     var key;
@@ -192,10 +304,11 @@ function loadVerseCardData(division, version, cb)
         version = "KJV";
     }
     key = division + "-" + version;
-    if (verseCardCache[key]) {
+    var cacheKey = key + "-" + yearSelect.value;
+    if (verseCardCache[cacheKey]) {
         return setTimeout(function ()
         {
-            cb(verseCardCache[key]);
+            cb(verseCardCache[cacheKey]);
         }, 0);
     }
     
@@ -206,13 +319,13 @@ function loadVerseCardData(division, version, cb)
     if(window.location.href.startsWith("https")) {
         baseDir = "/bb-printables/memory-sheets/"
     }
-    verseReq = request(baseDir + "verseCards/NBBC-" + year + "/" + key + "-" + cardHashes[key] + ".json", function (err, data)
+    verseReq = request(baseDir + "verseCards/NBBC-" + yearSelect.value + "/" + key + "-" + cardHashes[yearSelect.value][key] + ".json", function (err, data)
     {
         if (err) {
             console.error(err);
             alert("Could not load verses.");
         } else {
-            verseCardCache[key] = data;
+            verseCardCache[cacheKey] = data;
             cb(data);
         }
     });

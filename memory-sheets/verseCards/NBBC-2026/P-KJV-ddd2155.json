@@ -1,0 +1,510 @@
+[
+    {
+        "ref": "James 1:2–3",
+        "text": "(2) My brethren, count it all joy when ye fall into divers temptations; (3) Knowing this, that the trying of your faith worketh patience.",
+        "cardsText": [
+            [
+                "(2) My brethren, count it all joy when ye fall into divers",
+                "temptations; (3) Knowing this, that the trying of your faith",
+                "worketh patience."
+            ]
+        ],
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "wordCount": 22,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 1,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59001002,
+        "rangeEndId": 59001003,
+        "level": 0.5,
+        "bfTextStyled": "(2) My brethren, count it all joy when ye fall into divers temptations; (3) Knowing <i>this,</i> that the trying of your faith worketh patience.",
+        "crossVersionStats": {
+            "wordCountAve": 23,
+            "wordCountMin": 21,
+            "wordCountMax": 26,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2.8,
+            "lineMin": 2,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "Hebrews 11:16",
+        "text": "(16) But now they desire a better country, that is, an heavenly: wherefore God is not ashamed to be called their God: for he hath prepared for them a city.",
+        "cardsText": [
+            [
+                "(16) But now they desire a better country, that is, an heavenly:",
+                "wherefore God is not ashamed to be called their God: for he",
+                "hath prepared for them a city."
+            ]
+        ],
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "wordCount": 29,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 2,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 58011016,
+        "level": 0.5,
+        "bfTextStyled": "(16) But now they desire a better <i>country,</i> that is, an heavenly: wherefore God is not ashamed to be called their God: for he hath prepared for them a city.",
+        "crossVersionStats": {
+            "wordCountAve": 30,
+            "wordCountMin": 28,
+            "wordCountMax": 32,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 3,
+            "lineMin": 3,
+            "lineMax": 3
+        }
+    },
+    {
+        "ref": "James 1:21–22",
+        "text": "(21) Wherefore lay apart all filthiness and superfluity of naughtiness, and receive with meekness the engrafted word, which is able to save your souls. (22) But be ye doers of the word, and not hearers only, deceiving your own selves.",
+        "cardsText": [
+            [
+                "(21) Wherefore lay apart all filthiness and superfluity of",
+                "naughtiness, and receive with meekness the engrafted word,",
+                "which is able to save your souls. (22) But be ye doers of the",
+                "word, and not hearers only, deceiving your own selves."
+            ]
+        ],
+        "cards": 1,
+        "lines": 4,
+        "lastCardLines": 4,
+        "wordCount": 38,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 3,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59001021,
+        "rangeEndId": 59001022,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 37.4,
+            "wordCountMin": 34,
+            "wordCountMax": 41,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 4.2,
+            "lineMin": 4,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "Hebrews 11:24–26",
+        "text": "(24) By faith Moses, when he was come to years, refused to be called the son of Pharaoh's daughter; (25) Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season; (26) Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.",
+        "cardsText": [
+            [
+                "(24) By faith Moses, when he was come to years, refused to be",
+                "called the son of Pharaoh's daughter; (25) Choosing rather",
+                "to suffer affliction with the people of God, than to enjoy the",
+                "pleasures of sin for a season; (26) Esteeming the reproach of",
+                "Christ greater riches than the treasures in Egypt: for he had",
+                "respect unto the recompence of the reward."
+            ]
+        ],
+        "cards": 1,
+        "lines": 6,
+        "lastCardLines": 6,
+        "wordCount": 60,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 4,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 58011024,
+        "rangeEndId": 58011026,
+        "level": 0.5,
+        "bfText": "(24) By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter; (25) Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season; (26) Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.",
+        "crossVersionStats": {
+            "wordCountAve": 57,
+            "wordCountMin": 53,
+            "wordCountMax": 63,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 6,
+            "lineMin": 6,
+            "lineMax": 6
+        }
+    },
+    {
+        "ref": "James 2:8–9",
+        "text": "(8) If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well: (9) But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors.",
+        "cardsText": [
+            [
+                "(8) If ye fulfil the royal law according to the scripture, Thou",
+                "shalt love thy neighbour as thyself, ye do well: (9) But if ye",
+                "have respect to persons, ye commit sin, and are convinced of",
+                "the law as transgressors."
+            ]
+        ],
+        "cards": 1,
+        "lines": 4,
+        "lastCardLines": 4,
+        "wordCount": 38,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 5,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59002008,
+        "rangeEndId": 59002009,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 37.6,
+            "wordCountMin": 34,
+            "wordCountMax": 40,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 4.2,
+            "lineMin": 4,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "Judges 6:12–14",
+        "text": "(12) And the angel of the LORD appeared unto him, and said unto him, The LORD is with thee, thou mighty man of valour. (13) And Gideon said unto him, Oh my Lord, if the LORD be with us, why then is all this befallen us? and where be all his miracles which our fathers told us of, saying, Did not the LORD bring us up from Egypt? but now the LORD hath forsaken us, and delivered us into the hands of the Midianites. (14) And the LORD looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?",
+        "cardsText": [
+            [
+                "(12) And the angel of the LORD appeared unto him, and said",
+                "unto him, The LORD is with thee, thou mighty man of valour.",
+                "(13) And Gideon said unto him, Oh my Lord, if the LORD be",
+                "with us, why then is all this befallen us? and where be all his",
+                "miracles which our fathers told us of, saying, Did not the LORD",
+                "bring us up from Egypt? but now the LORD hath forsaken us,",
+                "and delivered us into the hands of the Midianites. (14) And",
+                "the LORD looked upon him, and said, Go in this thy might,",
+                "and thou shalt save Israel from the hand of the Midianites:",
+                "have not I sent thee?"
+            ]
+        ],
+        "cards": 1,
+        "lines": 10,
+        "lastCardLines": 10,
+        "wordCount": 111,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 6,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 7006012,
+        "rangeEndId": 7006014,
+        "level": 1,
+        "bfText": "(12) And the angel of the Lord appeared unto him, and said unto him, The Lord is with thee, thou mighty man of valour. (13) And Gideon said unto him, Oh my Lord, if the Lord be with us, why then is all this befallen us? and where be all his miracles which our fathers told us of, saying, Did not the Lord bring us up from Egypt? but now the Lord hath forsaken us, and delivered us into the hands of the Midianites. (14) And the Lord looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?",
+        "bfTextStyled": "(12) And the angel of the <u>Lord</u> appeared unto him, and said unto him, The <u>Lord</u> <i>is</i> with thee, thou mighty man of valour. (13) And Gideon said unto him, Oh my Lord, if the <u>Lord</u> be with us, why then is all this befallen us? and where <i>be</i> all his miracles which our fathers told us of, saying, Did not the <u>Lord</u> bring us up from Egypt? but now the <u>Lord</u> hath forsaken us, and delivered us into the hands of the Midianites. (14) And the <u>Lord</u> looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?",
+        "crossVersionStats": {
+            "wordCountAve": 107.8,
+            "wordCountMin": 102,
+            "wordCountMax": 112,
+            "levelMin": 1,
+            "levelMax": 1,
+            "lineAve": 9.4,
+            "lineMin": 9,
+            "lineMax": 10
+        }
+    },
+    {
+        "ref": "James 2:17–18",
+        "text": "(17) Even so faith, if it hath not works, is dead, being alone. (18) Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.",
+        "cardsText": [
+            [
+                "(17) Even so faith, if it hath not works, is dead, being alone.",
+                "(18) Yea, a man may say, Thou hast faith, and I have works:",
+                "shew me thy faith without thy works, and I will shew thee my",
+                "faith by my works."
+            ]
+        ],
+        "cards": 1,
+        "lines": 4,
+        "lastCardLines": 4,
+        "wordCount": 41,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 7,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59002017,
+        "rangeEndId": 59002018,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 42.2,
+            "wordCountMin": 41,
+            "wordCountMax": 45,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 4,
+            "lineMin": 4,
+            "lineMax": 4
+        }
+    },
+    {
+        "ref": "Joshua 2:10–11",
+        "text": "(10) For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed. (11) And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the LORD your God, he is God in heaven above, and in earth beneath.",
+        "cardsText": [
+            [
+                "(10) For we have heard how the LORD dried up the water of",
+                "the Red sea for you, when ye came out of Egypt; and what",
+                "ye did unto the two kings of the Amorites, that were on the",
+                "other side Jordan, Sihon and Og, whom ye utterly destroyed.",
+                "(11) And as soon as we had heard these things, our hearts did",
+                "melt, neither did there remain any more courage in any man,",
+                "because of you: for the LORD your God, he is God in heaven",
+                "above, and in earth beneath."
+            ]
+        ],
+        "cards": 1,
+        "lines": 8,
+        "lastCardLines": 8,
+        "wordCount": 89,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 8,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 6002010,
+        "rangeEndId": 6002011,
+        "level": 1,
+        "bfText": "(10) For we have heard how the Lord dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed. (11) And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the Lord your God, he is God in heaven above, and in earth beneath.",
+        "bfTextStyled": "(10) For we have heard how the <u>Lord</u> dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that <i>were</i> on the other side Jordan, Sihon and Og, whom ye utterly destroyed. (11) And as soon as we had heard <i>these</i> <i>things,</i> our hearts did melt, neither did there remain any more courage in any man, because of you: for the <u>Lord</u> your God, he <i>is</i> God in heaven above, and in earth beneath.",
+        "crossVersionStats": {
+            "wordCountAve": 84.2,
+            "wordCountMin": 76,
+            "wordCountMax": 89,
+            "levelMin": 1,
+            "levelMax": 1,
+            "lineAve": 7.8,
+            "lineMin": 7,
+            "lineMax": 8
+        }
+    },
+    {
+        "ref": "James 3:10–13",
+        "text": "(10) Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be. (11) Doth a fountain send forth at the same place sweet water and bitter? (12) Can the fig tree, my brethren, bear olive berries? either a vine, figs? so can no fountain both yield salt water and fresh. (13) Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.",
+        "cardsText": [
+            [
+                "(10) Out of the same mouth proceedeth blessing and cursing.",
+                "My brethren, these things ought not so to be. (11) Doth a",
+                "fountain send forth at the same place sweet water and bitter?",
+                "(12) Can the fig tree, my brethren, bear olive berries? either a",
+                "vine, figs? so can no fountain both yield salt water and fresh.",
+                "(13) Who is a wise man and endued with knowledge among",
+                "you? let him shew out of a good conversation his works with",
+                "meekness of wisdom."
+            ]
+        ],
+        "cards": 1,
+        "lines": 8,
+        "lastCardLines": 8,
+        "wordCount": 79,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 9,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59003010,
+        "rangeEndId": 59003013,
+        "level": 1,
+        "bfTextStyled": "(10) Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be. (11) Doth a fountain send forth at the same place sweet <i>water</i> and bitter? (12) Can the fig tree, my brethren, bear olive berries? either a vine, figs? so <i>can</i> no fountain both yield salt water and fresh. (13) Who <i>is</i> a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.",
+        "crossVersionStats": {
+            "wordCountAve": 76.2,
+            "wordCountMin": 73,
+            "wordCountMax": 79,
+            "levelMin": 1,
+            "levelMax": 1,
+            "lineAve": 7.8,
+            "lineMin": 7,
+            "lineMax": 8
+        }
+    },
+    {
+        "ref": "1 Samuel 25:32–33",
+        "text": "(32) And David said to Abigail, Blessed be the LORD God of Israel, which sent thee this day to meet me: (33) And blessed be thy advice, and blessed be thou, which hast kept me this day from coming to shed blood, and from avenging myself with mine own hand.",
+        "cardsText": [
+            [
+                "(32) And David said to Abigail, Blessed be the LORD God of",
+                "Israel, which sent thee this day to meet me: (33) And blessed",
+                "be thy advice, and blessed be thou, which hast kept me this",
+                "day from coming to shed blood, and from avenging myself",
+                "with mine own hand."
+            ]
+        ],
+        "cards": 1,
+        "lines": 5,
+        "lastCardLines": 5,
+        "wordCount": 48,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 10,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 9025032,
+        "rangeEndId": 9025033,
+        "level": 0.5,
+        "bfText": "(32) And David said to Abigail, Blessed be the Lord God of Israel, which sent thee this day to meet me: (33) And blessed be thy advice, and blessed be thou, which hast kept me this day from coming to shed blood, and from avenging myself with mine own hand.",
+        "bfTextStyled": "(32) And David said to Abigail, Blessed <i>be</i> the <u>Lord</u> God of Israel, which sent thee this day to meet me: (33) And blessed <i>be</i> thy advice, and blessed <i>be</i> thou, which hast kept me this day from coming to <i>shed</i> blood, and from avenging myself with mine own hand.",
+        "crossVersionStats": {
+            "wordCountAve": 46.2,
+            "wordCountMin": 45,
+            "wordCountMax": 48,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 5,
+            "lineMin": 5,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "James 4:7–10",
+        "text": "(7) Submit yourselves therefore to God. Resist the devil, and he will flee from you. (8) Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded. (9) Be afflicted, and mourn, and weep: let your laughter be turned to mourning, and your joy to heaviness. (10) Humble yourselves in the sight of the Lord, and he shall lift you up.",
+        "cardsText": [
+            [
+                "(7) Submit yourselves therefore to God. Resist the devil, and",
+                "he will flee from you. (8) Draw nigh to God, and he will draw",
+                "nigh to you. Cleanse your hands, ye sinners; and purify your",
+                "hearts, ye double minded. (9) Be afflicted, and mourn, and",
+                "weep: let your laughter be turned to mourning, and your joy",
+                "to heaviness. (10) Humble yourselves in the sight of the Lord,",
+                "and he shall lift you up."
+            ]
+        ],
+        "cards": 1,
+        "lines": 7,
+        "lastCardLines": 7,
+        "wordCount": 69,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 11,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59004007,
+        "rangeEndId": 59004010,
+        "level": 1,
+        "bfTextStyled": "(7) Submit yourselves therefore to God. Resist the devil, and he will flee from you. (8) Draw nigh to God, and he will draw nigh to you. Cleanse <i>your</i> hands, <i>ye</i> sinners; and purify <i>your</i> hearts, <i>ye</i> double minded. (9) Be afflicted, and mourn, and weep: let your laughter be turned to mourning, and <i>your</i> joy to heaviness. (10) Humble yourselves in the sight of the Lord, and he shall lift you up.",
+        "crossVersionStats": {
+            "wordCountAve": 65.4,
+            "wordCountMin": 61,
+            "wordCountMax": 69,
+            "levelMin": 0.5,
+            "levelMax": 1,
+            "lineAve": 6.8,
+            "lineMin": 6,
+            "lineMax": 7
+        }
+    },
+    {
+        "ref": "1 Kings 18:38–39",
+        "text": "(38) Then the fire of the LORD fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench. (39) And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God.",
+        "cardsText": [
+            [
+                "(38) Then the fire of the LORD fell, and consumed the burnt",
+                "sacrifice, and the wood, and the stones, and the dust, and",
+                "licked up the water that was in the trench. (39) And when all",
+                "the people saw it, they fell on their faces: and they said, The",
+                "LORD, he is the God; the LORD, he is the God."
+            ]
+        ],
+        "cards": 1,
+        "lines": 5,
+        "lastCardLines": 5,
+        "wordCount": 58,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 12,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 11018038,
+        "rangeEndId": 11018039,
+        "level": 0.5,
+        "bfText": "(38) Then the fire of the Lord fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench. (39) And when all the people saw it, they fell on their faces: and they said, The Lord, he is the God; the Lord, he is the God.",
+        "bfTextStyled": "(38) Then the fire of the <u>Lord</u> fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that <i>was</i> in the trench. (39) And when all the people saw <i>it,</i> they fell on their faces: and they said, The <u>Lord,</u> he <i>is</i> the God; the <u>Lord,</u> he <i>is</i> the God.",
+        "crossVersionStats": {
+            "wordCountAve": 54.6,
+            "wordCountMin": 47,
+            "wordCountMax": 58,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 5,
+            "lineMin": 5,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "James 5:7–8",
+        "text": "(7) Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain. (8) Be ye also patient; stablish your hearts: for the coming of the Lord draweth nigh.",
+        "cardsText": [
+            [
+                "(7) Be patient therefore, brethren, unto the coming of the",
+                "Lord. Behold, the husbandman waiteth for the precious fruit",
+                "of the earth, and hath long patience for it, until he receive",
+                "the early and latter rain. (8) Be ye also patient; stablish your",
+                "hearts: for the coming of the Lord draweth nigh."
+            ]
+        ],
+        "cards": 1,
+        "lines": 5,
+        "lastCardLines": 5,
+        "wordCount": 50,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 13,
+        "passageType": "Navigate Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 59005007,
+        "rangeEndId": 59005008,
+        "level": 0.5,
+        "crossVersionStats": {
+            "wordCountAve": 48.8,
+            "wordCountMin": 44,
+            "wordCountMax": 51,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 5,
+            "lineMin": 5,
+            "lineMax": 5
+        }
+    },
+    {
+        "ref": "Job 42:10",
+        "text": "(10) And the LORD turned the captivity of Job, when he prayed for his friends: also the LORD gave Job twice as much as he had before.",
+        "cardsText": [
+            [
+                "(10) And the LORD turned the captivity of Job, when he",
+                "prayed for his friends: also the LORD gave Job twice as much",
+                "as he had before."
+            ]
+        ],
+        "cards": 1,
+        "lines": 3,
+        "lastCardLines": 3,
+        "wordCount": 26,
+        "version": "KJV",
+        "division": "Primary",
+        "cardNum": 14,
+        "passageType": "Explore Memory Passage",
+        "release": "Summer Study",
+        "rangeStartId": 18042010,
+        "level": 0.5,
+        "bfText": "(10) And the Lord turned the captivity of Job, when he prayed for his friends: also the Lord gave Job twice as much as he had before.",
+        "bfTextStyled": "(10) And the <u>Lord</u> turned the captivity of Job, when he prayed for his friends: also the <u>Lord</u> gave Job twice as much as he had before.",
+        "crossVersionStats": {
+            "wordCountAve": 24.4,
+            "wordCountMin": 22,
+            "wordCountMax": 27,
+            "levelMin": 0.5,
+            "levelMax": 0.5,
+            "lineAve": 2.8,
+            "lineMin": 2,
+            "lineMax": 3
+        }
+    }
+]
