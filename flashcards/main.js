@@ -121,7 +121,6 @@ function cde(type, properties, children)
         
         var cards = [];
         var cardList = data.split(cardSep);
-        debugger
         for (var i = 0; i < cardList.length; i++) {
             var line = cardList[i];
             if (!line.trim()) continue;
@@ -171,7 +170,8 @@ function cde(type, properties, children)
             }
         }
     }
-    function createFlashcardsPDF(cardTextArr, cardsPerPage, fontSize, fontFamily) {
+    function createFlashcardsPDF(cardTextArr, cardsPerPage, fontSize, fontFamily, flipType) {
+        var hadToTruncate = false;
         function wrapText(text, maxWidth, font, fontSize) {
             // 1. Split the text by explicit newlines (\n) first
             const paragraphs = text.split("\n");
@@ -206,6 +206,9 @@ function cde(type, properties, children)
             return lines;
         }
         
+        var flipHoriz = flipType.toLowerCase().includes("horizontally");
+        var flipVert = flipType.toLowerCase().includes("vertically");
+
         const { PDFDocument, rgb } = PDFLib;
 
         let pdfDoc;
@@ -281,14 +284,24 @@ function cde(type, properties, children)
                         // const rawText = flashcardData[i];
                         var pageOffset = Math.floor(pageNum/2);
                         var alternateCardOffset = 0;
+                        var curIndex = i;
+
                         if(pageNum % 2) {
-                            if(i % 2 == 0) {
-                                alternateCardOffset = 1
-                            } else {
-                                alternateCardOffset = -1
+                            if(flipHoriz) {
+                                if(i % 2 == 0) {
+                                    alternateCardOffset = 1
+                                } else {
+                                    alternateCardOffset = -1
+                                }
+                            }
+                            if(flipVert) {
+                                curIndex = cardsPerPage - i;
                             }
                         }
-                        var cardIndex = i + pageOffset * cardsPerPage + alternateCardOffset;
+                        var cardIndex = curIndex + pageOffset * cardsPerPage + alternateCardOffset;
+
+
+                        
                         if(cardIndex >= cardTextArr.length) {
                             continue;
                         }
@@ -300,6 +313,7 @@ function cde(type, properties, children)
                         if(lines.length > maxLines) {
                             lines.length = maxLines - 1;
                             lines[lines.length-1] = lines[lines.length-1].substring(0, lines[lines.length-1].length - 3) + "...";
+                            hadToTruncate = true;
                         }
                         // Calculate total height of the text block to vertically center it
                         const totalTextHeight = lines.length * lineHeight;
@@ -335,9 +349,13 @@ function cde(type, properties, children)
                 var preview = document.getElementById("pdf-preview");
                 preview.src = pdfUrl;
                 preview.hidden = false;
+                document.getElementById("warning").hidden = !hadToTruncate;
+                document.getElementById("error").hidden = true;
             })
             .catch(function (error) {
-                console.error("An error occurred while generating the PDF:", error);
+                var errorEl = document.getElementById("error");
+                errorEl.hidden = false;
+                errorEl.textContent = "Error: " + error;
             });
     }
 
@@ -361,7 +379,7 @@ function cde(type, properties, children)
         }
         localStorage.setItem("lastCards", data);
         
-        createFlashcardsPDF(cards, cardsPerPage, fontSize, fontFamily);
+        createFlashcardsPDF(cards, cardsPerPage, fontSize, fontFamily, getValue("flip-type"));
     };
 
     document.getElementById("back").onclick = function() {
@@ -372,7 +390,7 @@ function cde(type, properties, children)
     document.getElementById("print").onclick = function() {
         window.print();
     };
-    var elsToHoldMemory = ["data", "term-def-sep", "card-sep", "cards-per-page", "font-size", "font-family"];
+    var elsToHoldMemory = ["data", "term-def-sep", "card-sep", "cards-per-page", "font-size", "font-family", "flip-type"];
     elsToHoldMemory.forEach(function(elName) {
         var el = document.getElementById(elName)
         if(false && el.nodeName === "TEXTAREA") {
@@ -441,9 +459,6 @@ function cde(type, properties, children)
                     cde("img", {src: "img/data.webp"}),
                     cde("p", {t: "Click on “Slide-down” (so named because you select at the top and then slide down) and the program should properly parse your cards."}),
                     cde("p", {t: "Note that this method might not work if the card set you select has multi-line terms or definitions. If it's not working, you might just have to type it out yourself."}),
-
-
-
                 ])
             )
         }})

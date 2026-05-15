@@ -36,8 +36,26 @@
             </select>
         </label>
         
+        <br>
+        <details>
+            <summary>Advanced Options</summary>
+            <div>When printing double-sided, my printer prints cards properly with horizontal flipping; however, you can change this setting if that doesn't appear to work for you.</div>
+            <label for="flip-type">Flip Mode:
+                <select id="flip-type">
+                    <option>No flipping</option>
+                    <option selected>Horizontally</option>
+                    <option>Vertically</option>
+                    <option>Horizontally and Vertically</option>
+                </select>
+            </label>
+        </details>
+        
+        <br>
+        
         <button id="generate">Generate</button> <br>
         
+        <div id=warning class="warning" hidden >Some of the text could not fit on the cards and had to be truncated. Try decreasing the font size or number of cards per page.</div>
+        <div id=error class="error" hidden ></div>
         <iframe id="pdf-preview" style="width: 100%; height: 600px; margin: 10px auto;" hidden></iframe>
     </div>
     <div id="output-section" style="display:none;">
