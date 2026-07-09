@@ -477,7 +477,7 @@ function cde(type, properties, children)
                     cde("h1", {t: "Help and support"}),
                     cde("p", ["Please send any bug reports, feature requests, and fan mail to ", cde("a", {href: "mailto:aaron@bibleadventure.com", t: "aaron@bibleadventure.com"}), ". I will happily read any messages but I get very busy during Bible Bee season and may not have time to develop this project any further."]),
                     cde("p", ["Alternatively, make an issue or create a pull request on ", cde("a", {href: "https://github.com/amrugg/bb-printables", t: "Github."})]),
-                    cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), ", ", cde("a", {href: "https://amrugg.github.io/bb-printables/memory-sheets/", t: "Memory Sheets"}), ", and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), " (Lord willing, coming for James at the end of May.)"]),
+                    cde("p", ["Other tools I have made include ", cde("a", {href: "https://bibleadventure.com/memorySchedule/", t: "Memory Schedule"}), ", ", cde("a", {href: "https://amrugg.github.io/bb-printables/memory-sheets/", t: "Memory Sheets"}), ", and ", cde("a", {href: "https://scriptureleague.org/reference-recall/", t: "Reference Recall"}), "."]),
                     cde("p", ["— Aaron Rugg"]),
                     cde("p", ["1 Corinthians 1:31 (He that glorieth, let him ", cde("b", {t: "glory in the Lord."}), ")"])
                 ])
