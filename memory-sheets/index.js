@@ -124,7 +124,6 @@ var order = cde("select", [
 ]);
 
 var generate = cde("button", {t: "Generate", onclick: function() {
-    debugger
     loadVerseCardData(division.value[0], version.value, makeSheets);
 }});
 var printButton = cde("button.print-btn", {t: "Print", disabled: true, onclick: function(){window.print()}});
@@ -276,21 +275,21 @@ var cardHashes = {
         "B-NASB": "0a25886",
         "B-NIV": "125753f",
         "B-NKJV": "b8be0b3",
-        "J-ESV": "38f7690",
-        "J-KJV": "e9e1d39",
-        "J-NASB": "3febd14",
-        "J-NIV": "f7dcfbb",
-        "J-NKJV": "ceb0658",
-        "P-ESV": "c18ad79",
-        "P-KJV": "ddd2155",
-        "P-NASB": "2dfe345",
-        "P-NIV": "05e4b9b",
-        "P-NKJV": "4cf0b6f",
-        "S-ESV": "db08680",
-        "S-KJV": "fa1968c",
-        "S-NASB": "fc80b77",
-        "S-NIV": "e52b376",
-        "S-NKJV": "ea1b605"
+        "J-ESV": "b893927",
+        "J-KJV": "1d75c9b",
+        "J-NASB": "7ad24ca",
+        "J-NIV": "17d7e12",
+        "J-NKJV": "4fc5324",
+        "P-ESV": "1a7c7dc",
+        "P-KJV": "57f49a2",
+        "P-NASB": "d462404",
+        "P-NIV": "8bd4c6e",
+        "P-NKJV": "d829867",
+        "S-ESV": "153f456",
+        "S-KJV": "a5acd0a",
+        "S-NASB": "2223b8f",
+        "S-NIV": "9ad58d1",
+        "S-NKJV": "cce9d6f"
     }
 };
 var verseReq;
@@ -463,7 +462,7 @@ function getNextFourWeeks(startDate) {
 function makeSheets(cards) {
     printButton.disabled = false;
     printEl.textContent = "";
-    cards = sort(cards);
+    cards = sort(cards.slice());
     function isOverflowing(el) {
         return el.scrollHeight > el.clientHeight;
     }
@@ -499,7 +498,6 @@ function makeSheets(cards) {
     var tBody;
 
     makeNewPage();
-
     for(var i = 0; i < cards.length; i++) {
         var cur = cards[i];
         if(cur.break) {
