@@ -449,7 +449,7 @@ function cde(type, properties, children)
                 cde("div.modal-content", [
                     cde("p", {t: "I currently know of two good ways to get a Quizlet set off of Quizlet. The first is to use the built-in export tool."}),
                     cde("img", {src: "img/export.webp"}),
-                    cde("p", {t: "If you use this tool with the default settings, the “Default Export” option should parse your cards correctly."}),
+                    cde("p", {t: "If you use Quizlet's export tool with the default settings, the “Default Export” preset should parse your cards correctly."}),
 
                     cde("p", {t: "However, this tool seems only to work with sets you've created yourself (or possibly sets you copy from others, but that sometimes doesn't work for me.) Thus, a different method must be found."}),
                     cde("p", {t: "Scroll down on the home page and show all the terms, not just the starred terms."}),
