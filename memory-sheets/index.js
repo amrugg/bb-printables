@@ -593,7 +593,7 @@ function sort(cards) {
                 newCards.push({break: "Summer Study", class: "barrier-green"});
                 break;
             }
-            cards.shift();
+            i++;
         }
 
         while(i < cards.length) {
@@ -610,6 +610,7 @@ function sort(cards) {
         while(i < cards.length) {
             var cur = cards[i];
             newCards.push(cur);
+            i++;
         }
     } else {
         cards.sort(function(a,b) {
